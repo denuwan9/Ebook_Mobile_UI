@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Application</string>
+    <string name="title_activity_signup">Signup</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_item">Item</string>
+    <string name="title_activity_order">Order</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_books">Books</string>
+    <string name="onboard_1_text">Emphasize the ability to download and read books offline \nand \nHighlight how the app suggests books based on user preferences.</string>
+    <string name="title_activity_bottom_navigation">bottom_navigation</string>
+    <string name="title_activity_onboard1">Onboard_1</string>
+    <string name="onboard_text">Showcase the variety of genres and titles available.</string>
+    <string name="onboard_2_text">Showcase the variety of genres and titles available.</string>
+    <string name="title_activity_onboard">Onboard</string>
+    <string name="title_activity_onboard2">Onboard_2</string>
+    <string name="ebooks_and_audiobooks">eBooks and audiobooks</string>
+    <string name="showcase_the_variety_of_genres_and_titles_available">Showcase the variety of genres and titles available.</string>
+    <string name="wide_selection_of_ebooks">Wide Selection of eBooks</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

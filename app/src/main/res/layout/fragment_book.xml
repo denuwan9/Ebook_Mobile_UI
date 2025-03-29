@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/surface_container"
+    tools:context=".BookF">
+
+    <!-- Background Decoration (Optional) -->
+   <ImageView
+       android:layout_width="300dp"
+       android:layout_height="300dp"
+       android:scaleType="centerCrop"
+       android:layout_marginStart="55dp"
+       android:alpha="0.05"
+       android:src="@drawable/baseline_auto_stories_24"
+       android:layout_gravity="bottom"/>
+
+   <!-- Title at the top -->
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Owen Book"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal" />
+
+    <!-- First Book Section -->
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="16dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/harry_p_1"
+            android:layout_width="180dp"
+            android:layout_height="280dp"
+            android:src="@drawable/simg_1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Harry Potter and the \nDeathly Hallows"
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="J.K. Rowing"
+                android:textColor="#656464"
+                android:textSize="18dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Second Book Section -->
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginStart="16dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/bimg_1"
+            android:layout_width="180dp"
+            android:layout_height="280dp"
+            android:src="@drawable/bimg_1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="The Queen Of Hearts"
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Lewis Carroll"
+                android:textColor="#656464"
+                android:textSize="18dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</FrameLayout>
